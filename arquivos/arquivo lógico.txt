@@ -1,0 +1,14 @@
+"O que eu preciso para fazer esse jogo funcionar??"
+
+primeiramente eu preciso de uma forma de escolher a palavra que será usada no jogo em questão;
+para isso eu posso montar um banco em mémoria (uma variável com várias opções de string) e usar alguma
+função para sortear a vriável string.
+
+depois eu preciso armazenar essa variável e contruir uma nova "oculta".
+
+agora eu mostro a variável oculta e depois peço para o usuário inserir um char.
+
+eu identifico se esse char está presente na minha imagem e se estiver, eu subistituo a posição indicada pelo if
+da string oculta pelo char escrito pelo usuário.
+
+repita o processo até os erros disponíveis acabarem ou o jogador ganhar o jogo.
