@@ -1,11 +1,13 @@
 # Hangman game
+
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/isaac-diniz/Curso_C--/blob/main/LICENSE) 
 
-Game produced with the aim of training the C++ language, focusing on programming logic.
+> Status: Developed ✅
+> </br>
+> Date: 24 / 01/ 2024 📆
 
-## Technologies used:
-- C++
+### Local application using cpp as development language
 
-# Author:
+## Author:
 
 José Isaac Diniz Martins Batista
