@@ -53,6 +53,5 @@ int main(){
             cout<<"Infelizmente voce perdeu :( A palavra era: "<<palavra<<endl;
         }
     }
-
     return 0;
 }
