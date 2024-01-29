@@ -13,7 +13,7 @@ int main(){
     srand(static_cast<unsigned int>(time(0)));
     int tipo=0;
     string palavra;
-    cout<<"Você deseja inserir uma palavra ou usar uma do banco de palavras pronto?\n";
+    cout<<"Voce deseja inserir uma palavra ou usar uma do banco de palavras pronto?\n";
     cout<<"[1] para inserir uma palavra / [0] para sortear uma do banco de palavras\n";
     cin>>tipo;
     if(tipo){
@@ -27,7 +27,7 @@ int main(){
     while(erro<6){
         system("cls");
         cout<<"A palavra sorteada e: "<<palavraOc<<endl;
-        cout<<"A quantidas de chances que lhe sobram e: "<<maxerro-erro;
+        cout<<"A quantidas de chances que lhe sobram e: "<<maxerro-erro;        
         char letra;
         cout<<"\n\nInsira uma letra: ";
         cin>>letra;
@@ -46,6 +46,7 @@ int main(){
             erro++;
         }
         if(palavraOc==palavra){
+            system("cls");
             cout<<"Parabens!! Voce ganhou e achou a palavra "<<palavra<<endl;
             break;
         }
